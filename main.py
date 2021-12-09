@@ -1,10 +1,13 @@
 import argparse
+from testlog import logger
+
 parser = argparse.ArgumentParser(description='testparse')
 parser.add_argument("--hyperparamX", type=int, default=3,
         help="some hyperparameter")
 args = parser.parse_args()
 
-print(args.hyperparamX)
+logger(args.hyperparamX)
+
 
 
 
