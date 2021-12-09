@@ -9,7 +9,4 @@ args = parser.parse_args()
 logger(args.hyperparamX)
 
 
-
-
-
-
+# TODO use the tensorboard
